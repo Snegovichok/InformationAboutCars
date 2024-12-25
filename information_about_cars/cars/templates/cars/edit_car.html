@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактировать автомобиль</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Редактировать автомобиль</h1>
+        <nav>
+            {% if user.is_authenticated %}
+                <p>Вы вошли как {{ user.username }} | <a href="{% url 'logout' %}">Выйти из аккаунта</a></p>
+            {% endif %}
+        </nav>
+    </header>
+    <main>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Сохранить изменения</button>
+        </form>
+        <p><a href="{% url 'user_dashboard' %}">Вернуться в личный кабинет</a></p>
+    </main>
+</body>
+</html>

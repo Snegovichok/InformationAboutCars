@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Административная панель</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Административная панель</h1>
+        <nav>
+            {% if user.is_authenticated %}
+                <p>Вы вошли как {{ user.username }} | <a href="{% url 'logout' %}">Выйти из аккаунта</a></p>
+            {% endif %}
+        </nav>
+    </header>
+    <main>
+        <p>Добро пожаловать в административную панель!</p>
+    </main>
+</body>
+</html>
