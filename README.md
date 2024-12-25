@@ -35,8 +35,7 @@
 1. Install Python software from the official website on your OS (Linux/Windows/macOS) "https://www.python.org". 
 
 2. Install all necessary pip dependencies from the file requirements.txt:
-- pip install -r requirements.txt
-(Note: First make sure that you have python and pip installed (the latest current versions).)
+- pip install -r requirements.txt (Note: First make sure that you have python and pip installed (the latest current versions).)
 
 3. Create a project in any convenient folder:
 (Note: Open the terminal command prompt in the created folder and run the following commands.)
@@ -49,22 +48,21 @@
 ## INSTRUCTIONS FOR USE:
 Note: Execute the following commands in the terminal exclusively where it is located manage.py
 
-**Generate new migrations for changes in the database models.**
+Generate new migrations for changes in the database models:
 - python manage.py makemigrations
 
-**Apply migrations to the database.**
+Apply migrations to the database:
 - python manage.py migrate
 
-**Create a superuser account for the Django admin panel.**
+Create a superuser account for the Django admin panel:
 - python manage.py createsuperuser
 
-**Start the server.**
+Start the server:
 Note: On the command line, go to where you have manage located.py and run:
 - python manage.py runserver
 
-**Addition:**
-To combine the old migrations.
-- python manage.py squashmigrations
+Addition:
+- python manage.py squashmigrations (To combine the old migrations)
 
 To reset the database.
 - python manage.py reset_db
