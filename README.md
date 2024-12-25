@@ -1,5 +1,5 @@
 # InformationAboutCars
-# PROJECT DESCRIPTION:
+## PROJECT DESCRIPTION:
 **Technology stack:**
 - Python.
 - Django.
