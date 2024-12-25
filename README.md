@@ -35,7 +35,7 @@
 1. Install Python software from the official website on your OS (Linux/Windows/macOS) "https://www.python.org". 
 
 2. Install all necessary pip dependencies from the file requirements.txt:
-- pip install -r requirements.txt (Note: First make sure that you have python and pip installed (the latest current versions))
+- pip install -r requirements.txt (Note: first make sure that you have python and pip installed (latest versions), the file itself "requirements.txt" located above)
 
 3. Create a project in any convenient folder:
 (Note: Open the terminal command prompt in the created folder and run the following commands)
