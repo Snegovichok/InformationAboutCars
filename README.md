@@ -9,12 +9,12 @@
 
 **API:**
 - GET /api/cars/ — getting a list of cars.
-- GET /api/cars/<id>/ — getting information about a specific car.
+- GET /api/cars/id/ — getting information about a specific car.
 - POST /api/cars/ — create a new car.
-- PUT /api/cars/<id>/ — updating information about the car.
-- DELETE /api/cars/<id>/ — delete a car.
-- GET /api/cars/<id>/comments/ — get comments on a car.
-- POST /api/cars/<id>/comments/ — adding a new comment to the car.
+- PUT /api/cars/id/ — updating information about the car.
+- DELETE /api/cars/id/ — delete a car.
+- GET /api/cars/id/comments/ — get comments on a car.
+- POST /api/cars/id/comments/ — adding a new comment to the car.
 
 **Views and html templates (the following pages are implemented):**
 1. The main page with the title “Information about cars" (information_about_cars.html ), where it shows the entire list of created cars from users (which can be clicked on to go to the corresponding cars/<id> page) and at the top offers the opportunity to register or authorize.
