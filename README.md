@@ -29,18 +29,17 @@
 10. From the main page, click on one of the cars to go to the page (cars.html) with information about a specific car and comments (cars/id), as well as a form for adding comments (comments are available only to registered users). After adding a comment, it shows: login, date, text. The comment model itself with fields contains: the content of the comment (content), the date and time when the comment was created (created_at), the foreign key for the car (car), the foreign key for the user (author).
 
 ## WEBSITE VERSION:
-**Version 1.0 implements all the basic stuff.**
-Note: it requires some design improvements, adding a photo of the car, links to a video of the car, changing the full name in your personal account, adding a photo in your personal account. Unit testing. Vulnerability check.
+**Version 1.0** implements all the basic stuff. Note: it requires some design improvements, adding a photo of the car, links to a video of the car, changing the full name in your personal account, adding a photo in your personal account. Unit testing. Vulnerability check.
 
 ## SETUP AND INSTALLATION INSTRUCTIONS:
 1. Install Python software from the official website on your OS (Linux/Windows/macOS) "https://www.python.org". 
 
-2. Install all necessary pip dependencies from the file requirements.txt.
+2. Install all necessary pip dependencies from the file requirements.txt:
 - pip install -r requirements.txt
-<Note: First make sure that you have python and pip installed (the latest current versions).>
+(Note: First make sure that you have python and pip installed (the latest current versions).)
 
-3. Create a project in any convenient folder.
-Note: Open the terminal command prompt in the created folder and run the following commands:
+3. Create a project in any convenient folder:
+(Note: Open the terminal command prompt in the created folder and run the following commands.)
 - django-admin startproject information_about_cars
 - cd information_about_cars
 - python manage.py startapp cars
