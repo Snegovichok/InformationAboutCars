@@ -33,19 +33,19 @@ Version 1.0 implements all the basic stuff.
 Note: it requires some design improvements, adding a photo of the car, links to a video of the car, changing the full name in your personal account, adding a photo in your personal account. Unit testing. Vulnerability check.
 
 # SETUP AND INSTALLATION INSTRUCTIONS:
-1. Install Python software from the official website on your OS (Linux/Windows/macOS) “https://www.python.org /”. 
+1. Install Python software from the official website on your OS (Linux/Windows/macOS) “https://www.python.org/”. 
 
 2. Install all necessary pip dependencies from the file requirements.txt.
 pip install -r requirements.txt
 Note: First make sure that you have python and pip installed (the latest current versions).
 
-4. Create a project in any convenient folder.
-Note: Open a terminal command prompt and run:
-django-admin startproject information_about_cars
-cd information_about_cars
-python manage.py startapp cars
+3. Create a project in any convenient folder.
+Note: Open the terminal command prompt in the created folder and run the following commands:
+"django-admin startproject information_about_cars"
+"cd information_about_cars"
+"python manage.py startapp cars"
 
-5. Move all the above folder files to your created project, replace them, and save them.
+4. Move all the above folder files to your created project, replace them, and save them.
 
 # INSTRUCTIONS FOR USE:
 Note: Execute the following commands in the terminal exclusively where it is located manage.py
