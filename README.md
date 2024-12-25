@@ -28,16 +28,16 @@
 9. The page for editing the car entry (edit_car.html), suggests making changes to an existing record with fields that already specify: make, model, year of manufacture, and description of the car. And the “Save changes” button, after which data is written to the database + the date and time of the last update of the record (updated_at).
 10. From the main page, click on one of the cars to go to the page (cars.html) with information about a specific car and comments (cars/id), as well as a form for adding comments (comments are available only to registered users). After adding a comment, it shows: login, date, text. The comment model itself with fields contains: the content of the comment (content), the date and time when the comment was created (created_at), the foreign key for the car (car), the foreign key for the user (author).
 
-# WEBSITE VERSION:
+## WEBSITE VERSION:
 Version 1.0 implements all the basic stuff.
 Note: it requires some design improvements, adding a photo of the car, links to a video of the car, changing the full name in your personal account, adding a photo in your personal account. Unit testing. Vulnerability check.
 
-# SETUP AND INSTALLATION INSTRUCTIONS:
+## SETUP AND INSTALLATION INSTRUCTIONS:
 1. Install Python software from the official website on your OS (Linux/Windows/macOS) "https://www.python.org". 
 
 2. Install all necessary pip dependencies from the file requirements.txt.
 - pip install -r requirements.txt
-Note: First make sure that you have python and pip installed (the latest current versions).
+<Note: First make sure that you have python and pip installed (the latest current versions).>
 
 3. Create a project in any convenient folder.
 Note: Open the terminal command prompt in the created folder and run the following commands:
@@ -47,7 +47,7 @@ Note: Open the terminal command prompt in the created folder and run the followi
 
 4. Move all the above folder files to your created project, replace them, and save them.
 
-# INSTRUCTIONS FOR USE:
+## INSTRUCTIONS FOR USE:
 Note: Execute the following commands in the terminal exclusively where it is located manage.py
 
 **Generate new migrations for changes in the database models.**
@@ -71,5 +71,5 @@ To reset the database.
 - python manage.py reset_db
 
 
-# RESULT:
+## RESULT:
 You should have a link to the server (at http://127.0.0.1:8000 /). Open it in any browser.
