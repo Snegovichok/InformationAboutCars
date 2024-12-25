@@ -1,4 +1,4 @@
-# InformationAboutCars
+# Information about cars
 ## PROJECT DESCRIPTION:
 **Technology stack:**
 - Python.
