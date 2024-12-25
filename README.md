@@ -72,5 +72,5 @@ You should have a link to the server (at http://127.0.0.1:8000/). Open it in any
 ## EXAMPLE
 ![image](https://github.com/user-attachments/assets/f666392c-a75d-408f-9908-65c9565e345f)
 ![image](https://github.com/user-attachments/assets/9bdeddb6-c6f5-4096-b677-1d6a931b4cc8)
-
-
+![image](https://github.com/user-attachments/assets/2fa56de4-7376-4a41-9dbd-cea9ab531be0)
+![image](https://github.com/user-attachments/assets/e6e442fd-5625-41a1-8251-314bbe4be3c0)
